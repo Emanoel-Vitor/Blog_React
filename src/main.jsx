@@ -10,6 +10,7 @@ import Post from "./routes/Post.jsx";
 
 import "./index.css";
 import App from "./App.jsx";
+import Admin from "./routes/Admin.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       {
         path: "/posts/:id",
         element: <Post />,
+      },
+
+      {
+        path: "/admin",
+        element: <Admin />,
       },
     ],
   },

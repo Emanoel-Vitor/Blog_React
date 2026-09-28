@@ -1,0 +1,9 @@
+.admim h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.actions {
+  display: flex;
+  grid-area: 1rem;
+}
